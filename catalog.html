@@ -7,12 +7,10 @@
   </head>
   <body>
     <header class="main-header">
-        <div class="container">
+        <div class="container clearfix">
             <nav class="main-navigation">
+                <a href="#"><img src="img/logo.png"  alt="Барбершоп" width="111" height="24"></a>
                 <ul>
-                    <li>
-                        <a href="#"><img src="img/logo.png"  alt="Барбершоп" width="111" height="24"></a>
-                    </li>
                     <li>
                         <a href="#">Информация</a>
                     </li>
@@ -36,22 +34,24 @@
         </div>
     </header>
     <main class="container">
-        <h1>Средства для ухода</h1>
-        <div class="breadcrumbs">
-            <ul class="breadcrumbs-list">
-                <li>
-                    <a href="#">Главная</a>
-                </li>
-                <li>
-                    <a href="#">Магазин</a>
-                </li>
-                <li>
-                    <a href="#">Средства для ухода</a>
-                </li>
-            </ul>
+        <div class="content-header">
+            <h1>Средства для ухода</h1>
+            <div class="breadcrumbs">
+                <ul class="breadcrumbs-list">
+                    <li>
+                        <a href="#">Главная</a>
+                    </li>
+                    <li>
+                        <a href="#">Магазин</a>
+                    </li>
+                    <li>
+                        <a href="#">Средства для ухода</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="content">
-            <div class="filter content-left">
+        <div class="content clearfix">
+            <aside class="filter content-left">
                 <form action="#" method="get">
                     <div class="brands">
                         <h2>Производители</h2>
@@ -101,50 +101,86 @@
                     </div>
                     <button type="submit" class="btn show">Показать</button>
                 </form>
-            </div>
+            </aside>
             <div class="catalog content-right">
                 <article class="catalog-item catalog-item-1">
                     <img src="img/item-1.jpg" width="220" height="165">
-                    <p class="item-feature">Набор для путешествий</p>
-                    <p class="item-brand">"Baxter of California"</p>
-                    <p class="item-price">2 900 руб.</p>
-                    <a class="btn buy">Купить</a>
-                </article>
-                <article class="catalog-item catalog-item-2">
+                    <h3>
+                        <a>
+                            <span class="item-feature">Набор для путешествий</span>
+                            <span class="item-brand">"Baxter of California"</span>
+                        </a>
+                    </h3>
+                    <div class="item-buy">
+                        <span class="item-price">2 900 руб.</span>
+                        <a class="btn item-buy-btn">Купить</a>
+                    </div>
+                </article><!--
+             --><article class="catalog-item catalog-item-2">
                     <img src="img/item-2.jpg" width="220" height="165">
-                    <p class="item-feature">Увлажняющий кондиционер</p>
-                    <p class="item-brand">"Baxter of California"</p>
-                    <p class="item-price">750 руб.</p>
-                    <a class="btn buy">Купить</a>
-                </article>
-                <article class="catalog-item catalog-item-3">
+                    <h3>
+                        <a>
+                            <span class="item-feature">Увлажняющий кондиционер</span>
+                            <span class="item-brand">"Baxter of California"</span>
+                        </a>
+                    </h3>
+                    <div class="item-buy">
+                        <span class="item-price">750 руб.</span>
+                        <a class="btn item-buy-btn">Купить</a>
+                    </div>
+                </article><!--
+             --><article class="catalog-item catalog-item-3">
                     <img src="img/item-3.jpg" width="220" height="165">
-                    <p class="item-feature">Гель для волос</p>
-                    <p class="item-brand">"Suavecito"</p>
-                    <p class="item-price">290 руб.</p>
-                    <a class="btn buy">Купить</a>
-                </article>
-                <article class="catalog-item catalog-item-4">
+                    <h3>
+                        <a>
+                            <span class="item-feature">Гель для волос</span>
+                            <span class="item-brand">"Suavecito"</span>
+                        </a>
+                    </h3>
+                    <div class="item-buy">
+                        <span class="item-price">290 руб.</span>
+                        <a class="btn item-buy-btn">Купить</a>
+                    </div>
+                </article><!--
+             --><article class="catalog-item catalog-item-4">
                     <img src="img/item-4.jpg" width="220" height="165">
-                    <p class="item-feature">Глина для укладки волос</p>
-                    <p class="item-brand">"American Crew"</p>
-                    <p class="item-price">500 руб.</p>
-                    <a class="btn buy">Купить</a>
-                </article>
-                <article class="catalog-item catalog-item-5">
+                    <h3>
+                        <a>
+                            <span class="item-feature">Глина для укладки волос</span>
+                            <span class="item-brand">"American Crew"</span>
+                        </a>
+                    </h3>
+                    <div class="item-buy">
+                        <span class="item-price">500 руб.</span>
+                        <a class="btn item-buy-btn">Купить</a>
+                    </div>
+                </article><!--
+             --><article class="catalog-item catalog-item-5">
                     <img src="img/item-5.jpg" width="220" height="165">
-                    <p class="item-feature">Гель для волос</p>
-                    <p class="item-brand">"American Crew"</p>
-                    <p class="item-price">300 руб.</p>
-                    <a class="btn buy">Купить</a>
-                </article>
-                <article class="catalog-item catalog-item-6">
+                    <h3>
+                        <a>
+                            <span class="item-feature">Гель для волос</span>
+                            <span class="item-brand">"American Crew"</span>
+                        </a>
+                    </h3>
+                    <div class="item-buy">
+                        <span class="item-price">300 руб.</span>
+                        <a class="btn item-buy-btn">Купить</a>
+                    </div>
+                </article><!--
+             --><article class="catalog-item catalog-item-6">
                     <img src="img/item-6.jpg" width="220" height="165">
-                    <p class="item-feature">Набор для бритья</p>
-                    <p class="item-brand">"Baxter of California"</p>
-                    <p class="item-price">3 900 руб.</p>
-                    <a class="btn buy">Купить</a>
-                </article>
+                    <h3>
+                        <a>
+                            <span class="item-feature">Набор для бритья</span>
+                            <span class="item-brand">"Baxter of California"</span>
+                        </a>
+                    </h3>
+                    <div class="item-buy">
+                        <span class="item-price">3 900 руб.</span>
+                        <a class="btn item-buy-btn">Купить</a>
+                    </div>
+                </article><!---->
                 <div class="page-nav">
                     <ul class="page-nav-list">
                         <li>
@@ -165,21 +201,21 @@
         </div>
     </main>
     <footer class="main-footer">
-        <div class="container">
+        <div class="container clearfix">
             <section class="footer-contacts">
-                Барбершоп «Бородинский»<br>
+                <h3>Барбершоп «Бородинский»</h3><br>
                 Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
                 <a href="#">Как нас найти?</a><br>
                 Телефон: +7 (812) 666-02-66
             </section>
             <section class="footer-social">
-                <p>Давайте дружить!</p>
+                <h3>Давайте дружить!</h3>
                 <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
                 <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
                 <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
             </section>
             <section class="footer-copyright">
-                <p>Разработано:</p>
+                <h3>Разработано:</h3>
                 <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
             </section>
         </div>
